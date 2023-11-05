@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .point {
+    color: rgb(192, 52, 157);
+}
+
+header {
+    text-align: center;
+}
+
+.Reborn {
+    text-align: right;
+}
+
+
+
+.first-ui {
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 150px;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+
+}
+
+div {
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+
+.Make {
+    margin-top: -30px
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: rgb(226, 85, 167);
+    
+}
+
+
+.hero {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/макет2.png) ;
+    background-position: center;
+    width: 1000;
+    background-size: cover;
+    
+    padding-top: 0px;
+    padding-bottom: 500px;
+
+}
+
+.textright {
+    width: 500px;
+    height: 700rpx;
+    position: absolute;
+    top: 1050px;
+    left: 900px;
+}
+
+.textleft {
+    width: 500px;
+    height: 700rpx;
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+}
+
+
+p { 
+    font-size: 25px;
+    
+}
+
+
+.section-description {
+    padding-top: 320px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description img{
+    margin-right: 310px;
+}
+.section-description img:last-child {
+    margin-right: 0px;
+
+}
+
+.section-description__icon-box {
+    margin-bottom:50px;
+}
+
+.section-description__title{
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom:20px;
+}
+
+.section-description_pink{
+    color: rgb(171, 25, 84);
+}
+
+.section-description__P{
+    font-size: 18px;
+    text-align: center;
+    width: 1300px;
+    margin: 0 auto;
+}
+.map {
+    margin-bottom: 100px;
+
+}
+.map__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.buld {
+    width: 1920;
+    height: 1080;
+    background-image: url(../img/recycle.png);
+    background-size: cover;
+
+    padding-top: 150px;
+    padding-bottom: 700px;
+    
+}
+
+.hr {
+    border: none;
+    border-top: 1px solid;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+.Products_1{
+text-align: center;
+padding-top: 100px;
+margin-bottom: 30xp;
+
+
+
+}
+
+.poster{
+
+        width: 1920;
+        height: 1080;
+        background-image: url(../img/poster.jpg);
+        background-size: cover;
+        padding-top: 380px;
+        padding-bottom: 380px;
+        margin-bottom: 50px;
+        ;
+}
+
+.posters {
+    width: 1920;
+        height: 1080;
+        background-image: url(../img/gorod.png);
+        background-position: center;
+        background-size: cover;
+        padding-top: 380px;
+        padding-bottom: 380px;
+        margin-bottom: 50px;
+        ;
+
+}
+
+.boxx {
+    height: 1080;
+        background-image: url(../img/box.png);
+        background-position: center ;
+        background-size: cover;
+        padding-top: 380px;
+        padding-bottom: 380px;
+        margin-bottom: 50px;
+        ;
+}
+
+.tickets {
+    width: 1920;
+    height: 1080;
+        background-image: url(../img/tickets.jpg);
+        background-position: center ;
+        background-size: cover;
+        padding-top: 1000px;
+        padding-bottom: 200px;
+        margin-bottom: 50px;
+        ;
+}
+
