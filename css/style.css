@@ -226,6 +226,19 @@ margin-bottom: 30xp;
         ;
 }
 
+.scotch {
+    width: 1920;
+        height: 1080;
+        background-image: url(../img/scotch.png);
+        background-position: center;
+        background-size: cover;
+        padding-top: 380px;
+        padding-bottom: 380px;
+        margin-bottom: 50px;
+        ;
+
+}
+
 .tickets {
     width: 1920;
     height: 1080;
