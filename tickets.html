@@ -15,13 +15,14 @@
             <li> <a href="media.html">MEDIA</a></li>
             <li> <a href="https://www.youtube.com/watch?v=LYoKvTGfgl4&t=1s&ab_channel=DanakaiAdleiba" target="_blank">ABOUT US</a></li>
             <li> <a class="point" href="tickets.html">TICKETS</a></li>
+            <li> <a href="tasks.html">TASKS</a></li>
             <li><a href="index.html"><img src="img/логотип странный (2)2332.jpg" alt="tickets.html" width="30" height="30"></a></li>
 
             
         </ul>
     </nav>
     
-    <div class="Products_1">
+<!--     <div class="Products_1">
         <h1 class="Products">Tickets</h1>
     </div>
     <div class="tickets">
@@ -76,7 +77,62 @@
             window.open(url, '_blank');
             alert('Данные отправлены на сервер Bing.');
         }
-    </script>
+    </script> -->
+
+    <body>
+
+        <div class="Products_1">
+            <h1 class="Products">Tickets</h1>
+       
+                <h3>Buy tickets</h3>
+                <br>
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <p><input type="hidden" name="q" value="search"></p>
+                    <p>
+                        <label for="firstName">Имя:</label>
+                        <input type="text" id="firstName" name="first_name" required>
+                    </p>
+                    <p>
+                        <label for="lastName">Фамилия:</label>
+                        <input type="text" id="lastName" name="last_name" required>
+                    </p>
+                    <p>Пол:
+                        <input type="Radio" name="sex" value="Female">Женский
+                        <input type="Radio" name="sex" value="Male" checked="">Мужской
+                    </p>
+                    <p>Возраст: <input type="Number" name="age" size="20" value="0"></p>
+                    
+                    <p>
+                        <label for="phone">Номер телефона:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>Пароль: <input type="Password" name="password" size="9" value="123"></p>
+                    <p>
+                        <label for="messageDate">Дата:</label>
+                        <input type="date" id="messageDate" name="message_date" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="Отправить">
+                    </p>
+                </form>
+                <br>
+
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <p><input type="hidden" name="q" value="search"></p>
+                    <p>
+                        <label for="NickName">Никнейм:</label>
+                        <input type="text" id="NickName" name="NickName" required>
+                    </p>
+                    <p>Отзыв
+                        <br>
+                        <textarea cols="80" name="textarea" rows="4"></textarea>
+                    </p>
+                    <input type="submit" value="Отправить">
+                </form>
 </body>
 </html>
 
